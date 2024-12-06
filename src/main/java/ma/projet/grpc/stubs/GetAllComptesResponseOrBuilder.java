@@ -10,12 +10,12 @@ public interface GetAllComptesResponseOrBuilder extends
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  java.util.List<ma.projet.grpc.stubs.Compte> 
+  java.util.List<Compte>
       getComptesList();
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  ma.projet.grpc.stubs.Compte getComptes(int index);
+  Compte getComptes(int index);
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
@@ -23,11 +23,11 @@ public interface GetAllComptesResponseOrBuilder extends
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  java.util.List<? extends ma.projet.grpc.stubs.CompteOrBuilder> 
+  java.util.List<? extends CompteOrBuilder>
       getComptesOrBuilderList();
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  ma.projet.grpc.stubs.CompteOrBuilder getComptesOrBuilder(
+  CompteOrBuilder getComptesOrBuilder(
       int index);
 }

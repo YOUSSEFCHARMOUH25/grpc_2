@@ -34,5 +34,5 @@ public interface CompteRequestOrBuilder extends
    * <code>.com.example.grpcdemo.TypeCompte type = 3;</code>
    * @return The type.
    */
-  ma.projet.grpc.stubs.TypeCompte getType();
+  TypeCompte getType();
 }

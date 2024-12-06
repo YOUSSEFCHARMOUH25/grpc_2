@@ -56,11 +56,11 @@ private static final long serialVersionUID = 0L;
             break;
           case 10: {
             if (!((mutable_bitField0_ & 0x00000001) != 0)) {
-              comptes_ = new java.util.ArrayList<ma.projet.grpc.stubs.Compte>();
+              comptes_ = new java.util.ArrayList<Compte>();
               mutable_bitField0_ |= 0x00000001;
             }
             comptes_.add(
-                input.readMessage(ma.projet.grpc.stubs.Compte.parser(), extensionRegistry));
+                input.readMessage(Compte.parser(), extensionRegistry));
             break;
           }
           default: {
@@ -87,29 +87,29 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
+    return CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_fieldAccessorTable
+    return CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            ma.projet.grpc.stubs.GetAllComptesResponse.class, ma.projet.grpc.stubs.GetAllComptesResponse.Builder.class);
+            GetAllComptesResponse.class, Builder.class);
   }
 
   public static final int COMPTES_FIELD_NUMBER = 1;
-  private java.util.List<ma.projet.grpc.stubs.Compte> comptes_;
+  private java.util.List<Compte> comptes_;
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  public java.util.List<ma.projet.grpc.stubs.Compte> getComptesList() {
+  public java.util.List<Compte> getComptesList() {
     return comptes_;
   }
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  public java.util.List<? extends ma.projet.grpc.stubs.CompteOrBuilder> 
+  public java.util.List<? extends CompteOrBuilder>
       getComptesOrBuilderList() {
     return comptes_;
   }
@@ -122,13 +122,13 @@ private static final long serialVersionUID = 0L;
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  public ma.projet.grpc.stubs.Compte getComptes(int index) {
+  public Compte getComptes(int index) {
     return comptes_.get(index);
   }
   /**
    * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
    */
-  public ma.projet.grpc.stubs.CompteOrBuilder getComptesOrBuilder(
+  public CompteOrBuilder getComptesOrBuilder(
       int index) {
     return comptes_.get(index);
   }
@@ -173,10 +173,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof ma.projet.grpc.stubs.GetAllComptesResponse)) {
+    if (!(obj instanceof GetAllComptesResponse)) {
       return super.equals(obj);
     }
-    ma.projet.grpc.stubs.GetAllComptesResponse other = (ma.projet.grpc.stubs.GetAllComptesResponse) obj;
+    GetAllComptesResponse other = (GetAllComptesResponse) obj;
 
     if (!getComptesList()
         .equals(other.getComptesList())) return false;
@@ -200,69 +200,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(byte[] data)
+  public static GetAllComptesResponse parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(java.io.InputStream input)
+  public static GetAllComptesResponse parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseDelimitedFrom(java.io.InputStream input)
+  public static GetAllComptesResponse parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseDelimitedFrom(
+  public static GetAllComptesResponse parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.GetAllComptesResponse parseFrom(
+  public static GetAllComptesResponse parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -275,7 +275,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(ma.projet.grpc.stubs.GetAllComptesResponse prototype) {
+  public static Builder newBuilder(GetAllComptesResponse prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -286,7 +286,7 @@ private static final long serialVersionUID = 0L;
 
   @java.lang.Override
   protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      BuilderParent parent) {
     Builder builder = new Builder(parent);
     return builder;
   }
@@ -300,18 +300,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.GetAllComptesResponse)
-      ma.projet.grpc.stubs.GetAllComptesResponseOrBuilder {
+      GetAllComptesResponseOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
+      return CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_fieldAccessorTable
+      return CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ma.projet.grpc.stubs.GetAllComptesResponse.class, ma.projet.grpc.stubs.GetAllComptesResponse.Builder.class);
+              GetAllComptesResponse.class, Builder.class);
     }
 
     // Construct using ma.projet.grpc.stubs.GetAllComptesResponse.newBuilder()
@@ -320,7 +320,7 @@ private static final long serialVersionUID = 0L;
     }
 
     private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        BuilderParent parent) {
       super(parent);
       maybeForceBuilderInitialization();
     }
@@ -345,17 +345,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
+      return CompteOuterClass.internal_static_com_example_grpcdemo_GetAllComptesResponse_descriptor;
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.GetAllComptesResponse getDefaultInstanceForType() {
-      return ma.projet.grpc.stubs.GetAllComptesResponse.getDefaultInstance();
+    public GetAllComptesResponse getDefaultInstanceForType() {
+      return GetAllComptesResponse.getDefaultInstance();
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.GetAllComptesResponse build() {
-      ma.projet.grpc.stubs.GetAllComptesResponse result = buildPartial();
+    public GetAllComptesResponse build() {
+      GetAllComptesResponse result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -363,8 +363,8 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.GetAllComptesResponse buildPartial() {
-      ma.projet.grpc.stubs.GetAllComptesResponse result = new ma.projet.grpc.stubs.GetAllComptesResponse(this);
+    public GetAllComptesResponse buildPartial() {
+      GetAllComptesResponse result = new GetAllComptesResponse(this);
       int from_bitField0_ = bitField0_;
       if (comptesBuilder_ == null) {
         if (((bitField0_ & 0x00000001) != 0)) {
@@ -413,16 +413,16 @@ private static final long serialVersionUID = 0L;
     }
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof ma.projet.grpc.stubs.GetAllComptesResponse) {
-        return mergeFrom((ma.projet.grpc.stubs.GetAllComptesResponse)other);
+      if (other instanceof GetAllComptesResponse) {
+        return mergeFrom((GetAllComptesResponse)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(ma.projet.grpc.stubs.GetAllComptesResponse other) {
-      if (other == ma.projet.grpc.stubs.GetAllComptesResponse.getDefaultInstance()) return this;
+    public Builder mergeFrom(GetAllComptesResponse other) {
+      if (other == GetAllComptesResponse.getDefaultInstance()) return this;
       if (comptesBuilder_ == null) {
         if (!other.comptes_.isEmpty()) {
           if (comptes_.isEmpty()) {
@@ -464,11 +464,11 @@ private static final long serialVersionUID = 0L;
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      ma.projet.grpc.stubs.GetAllComptesResponse parsedMessage = null;
+      GetAllComptesResponse parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (ma.projet.grpc.stubs.GetAllComptesResponse) e.getUnfinishedMessage();
+        parsedMessage = (GetAllComptesResponse) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -479,22 +479,22 @@ private static final long serialVersionUID = 0L;
     }
     private int bitField0_;
 
-    private java.util.List<ma.projet.grpc.stubs.Compte> comptes_ =
+    private java.util.List<Compte> comptes_ =
       java.util.Collections.emptyList();
     private void ensureComptesIsMutable() {
       if (!((bitField0_ & 0x00000001) != 0)) {
-        comptes_ = new java.util.ArrayList<ma.projet.grpc.stubs.Compte>(comptes_);
+        comptes_ = new java.util.ArrayList<Compte>(comptes_);
         bitField0_ |= 0x00000001;
        }
     }
 
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        ma.projet.grpc.stubs.Compte, ma.projet.grpc.stubs.Compte.Builder, ma.projet.grpc.stubs.CompteOrBuilder> comptesBuilder_;
+        Compte, Compte.Builder, CompteOrBuilder> comptesBuilder_;
 
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public java.util.List<ma.projet.grpc.stubs.Compte> getComptesList() {
+    public java.util.List<Compte> getComptesList() {
       if (comptesBuilder_ == null) {
         return java.util.Collections.unmodifiableList(comptes_);
       } else {
@@ -514,7 +514,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public ma.projet.grpc.stubs.Compte getComptes(int index) {
+    public Compte getComptes(int index) {
       if (comptesBuilder_ == null) {
         return comptes_.get(index);
       } else {
@@ -525,7 +525,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder setComptes(
-        int index, ma.projet.grpc.stubs.Compte value) {
+        int index, Compte value) {
       if (comptesBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -542,7 +542,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder setComptes(
-        int index, ma.projet.grpc.stubs.Compte.Builder builderForValue) {
+        int index, Compte.Builder builderForValue) {
       if (comptesBuilder_ == null) {
         ensureComptesIsMutable();
         comptes_.set(index, builderForValue.build());
@@ -555,7 +555,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public Builder addComptes(ma.projet.grpc.stubs.Compte value) {
+    public Builder addComptes(Compte value) {
       if (comptesBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -572,7 +572,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder addComptes(
-        int index, ma.projet.grpc.stubs.Compte value) {
+        int index, Compte value) {
       if (comptesBuilder_ == null) {
         if (value == null) {
           throw new NullPointerException();
@@ -589,7 +589,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder addComptes(
-        ma.projet.grpc.stubs.Compte.Builder builderForValue) {
+        Compte.Builder builderForValue) {
       if (comptesBuilder_ == null) {
         ensureComptesIsMutable();
         comptes_.add(builderForValue.build());
@@ -603,7 +603,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder addComptes(
-        int index, ma.projet.grpc.stubs.Compte.Builder builderForValue) {
+        int index, Compte.Builder builderForValue) {
       if (comptesBuilder_ == null) {
         ensureComptesIsMutable();
         comptes_.add(index, builderForValue.build());
@@ -617,7 +617,7 @@ private static final long serialVersionUID = 0L;
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
     public Builder addAllComptes(
-        java.lang.Iterable<? extends ma.projet.grpc.stubs.Compte> values) {
+        java.lang.Iterable<? extends Compte> values) {
       if (comptesBuilder_ == null) {
         ensureComptesIsMutable();
         com.google.protobuf.AbstractMessageLite.Builder.addAll(
@@ -657,14 +657,14 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public ma.projet.grpc.stubs.Compte.Builder getComptesBuilder(
+    public Compte.Builder getComptesBuilder(
         int index) {
       return getComptesFieldBuilder().getBuilder(index);
     }
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public ma.projet.grpc.stubs.CompteOrBuilder getComptesOrBuilder(
+    public CompteOrBuilder getComptesOrBuilder(
         int index) {
       if (comptesBuilder_ == null) {
         return comptes_.get(index);  } else {
@@ -674,7 +674,7 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public java.util.List<? extends ma.projet.grpc.stubs.CompteOrBuilder> 
+    public java.util.List<? extends CompteOrBuilder>
          getComptesOrBuilderList() {
       if (comptesBuilder_ != null) {
         return comptesBuilder_.getMessageOrBuilderList();
@@ -685,31 +685,31 @@ private static final long serialVersionUID = 0L;
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public ma.projet.grpc.stubs.Compte.Builder addComptesBuilder() {
+    public Compte.Builder addComptesBuilder() {
       return getComptesFieldBuilder().addBuilder(
-          ma.projet.grpc.stubs.Compte.getDefaultInstance());
+          Compte.getDefaultInstance());
     }
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public ma.projet.grpc.stubs.Compte.Builder addComptesBuilder(
+    public Compte.Builder addComptesBuilder(
         int index) {
       return getComptesFieldBuilder().addBuilder(
-          index, ma.projet.grpc.stubs.Compte.getDefaultInstance());
+          index, Compte.getDefaultInstance());
     }
     /**
      * <code>repeated .com.example.grpcdemo.Compte comptes = 1;</code>
      */
-    public java.util.List<ma.projet.grpc.stubs.Compte.Builder> 
+    public java.util.List<Compte.Builder>
          getComptesBuilderList() {
       return getComptesFieldBuilder().getBuilderList();
     }
     private com.google.protobuf.RepeatedFieldBuilderV3<
-        ma.projet.grpc.stubs.Compte, ma.projet.grpc.stubs.Compte.Builder, ma.projet.grpc.stubs.CompteOrBuilder> 
+        Compte, Compte.Builder, CompteOrBuilder>
         getComptesFieldBuilder() {
       if (comptesBuilder_ == null) {
         comptesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
-            ma.projet.grpc.stubs.Compte, ma.projet.grpc.stubs.Compte.Builder, ma.projet.grpc.stubs.CompteOrBuilder>(
+            Compte, Compte.Builder, CompteOrBuilder>(
                 comptes_,
                 ((bitField0_ & 0x00000001) != 0),
                 getParentForChildren(),
@@ -735,12 +735,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:com.example.grpcdemo.GetAllComptesResponse)
-  private static final ma.projet.grpc.stubs.GetAllComptesResponse DEFAULT_INSTANCE;
+  private static final GetAllComptesResponse DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new ma.projet.grpc.stubs.GetAllComptesResponse();
+    DEFAULT_INSTANCE = new GetAllComptesResponse();
   }
 
-  public static ma.projet.grpc.stubs.GetAllComptesResponse getDefaultInstance() {
+  public static GetAllComptesResponse getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -765,7 +765,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public ma.projet.grpc.stubs.GetAllComptesResponse getDefaultInstanceForType() {
+  public GetAllComptesResponse getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 

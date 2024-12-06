@@ -16,9 +16,9 @@ public interface GetCompteByIdResponseOrBuilder extends
    * <code>.com.example.grpcdemo.Compte compte = 1;</code>
    * @return The compte.
    */
-  ma.projet.grpc.stubs.Compte getCompte();
+  Compte getCompte();
   /**
    * <code>.com.example.grpcdemo.Compte compte = 1;</code>
    */
-  ma.projet.grpc.stubs.CompteOrBuilder getCompteOrBuilder();
+  CompteOrBuilder getCompteOrBuilder();
 }

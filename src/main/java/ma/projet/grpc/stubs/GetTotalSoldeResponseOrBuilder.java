@@ -16,9 +16,9 @@ public interface GetTotalSoldeResponseOrBuilder extends
    * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
    * @return The stats.
    */
-  ma.projet.grpc.stubs.SoldeStats getStats();
+  SoldeStats getStats();
   /**
    * <code>.com.example.grpcdemo.SoldeStats stats = 1;</code>
    */
-  ma.projet.grpc.stubs.SoldeStatsOrBuilder getStatsOrBuilder();
+  SoldeStatsOrBuilder getStatsOrBuilder();
 }

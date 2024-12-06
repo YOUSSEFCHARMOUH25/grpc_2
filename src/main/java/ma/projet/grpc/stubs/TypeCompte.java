@@ -85,7 +85,7 @@ public enum TypeCompte
   }
   public static final com.google.protobuf.Descriptors.EnumDescriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.getDescriptor().getEnumTypes().get(0);
+    return CompteOuterClass.getDescriptor().getEnumTypes().get(0);
   }
 
   private static final TypeCompte[] VALUES = values();

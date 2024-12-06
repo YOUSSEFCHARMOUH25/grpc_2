@@ -16,9 +16,9 @@ public interface SaveCompteRequestOrBuilder extends
    * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
    * @return The compte.
    */
-  ma.projet.grpc.stubs.CompteRequest getCompte();
+  CompteRequest getCompte();
   /**
    * <code>.com.example.grpcdemo.CompteRequest compte = 1;</code>
    */
-  ma.projet.grpc.stubs.CompteRequestOrBuilder getCompteOrBuilder();
+  CompteRequestOrBuilder getCompteOrBuilder();
 }

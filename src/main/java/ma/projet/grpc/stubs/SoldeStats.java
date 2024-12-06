@@ -88,15 +88,15 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+    return CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
+    return CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
-            ma.projet.grpc.stubs.SoldeStats.class, ma.projet.grpc.stubs.SoldeStats.Builder.class);
+            SoldeStats.class, Builder.class);
   }
 
   public static final int COUNT_FIELD_NUMBER = 1;
@@ -195,10 +195,10 @@ private static final long serialVersionUID = 0L;
     if (obj == this) {
      return true;
     }
-    if (!(obj instanceof ma.projet.grpc.stubs.SoldeStats)) {
+    if (!(obj instanceof SoldeStats)) {
       return super.equals(obj);
     }
-    ma.projet.grpc.stubs.SoldeStats other = (ma.projet.grpc.stubs.SoldeStats) obj;
+    SoldeStats other = (SoldeStats) obj;
 
     if (getCount()
         != other.getCount()) return false;
@@ -232,69 +232,69 @@ private static final long serialVersionUID = 0L;
     return hash;
   }
 
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       java.nio.ByteBuffer data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       java.nio.ByteBuffer data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       com.google.protobuf.ByteString data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       com.google.protobuf.ByteString data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(byte[] data)
+  public static SoldeStats parseFrom(byte[] data)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       byte[] data,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws com.google.protobuf.InvalidProtocolBufferException {
     return PARSER.parseFrom(data, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(java.io.InputStream input)
+  public static SoldeStats parseFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseDelimitedFrom(java.io.InputStream input)
+  public static SoldeStats parseDelimitedFrom(java.io.InputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseDelimitedFrom(
+  public static SoldeStats parseDelimitedFrom(
       java.io.InputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       com.google.protobuf.CodedInputStream input)
       throws java.io.IOException {
     return com.google.protobuf.GeneratedMessageV3
         .parseWithIOException(PARSER, input);
   }
-  public static ma.projet.grpc.stubs.SoldeStats parseFrom(
+  public static SoldeStats parseFrom(
       com.google.protobuf.CodedInputStream input,
       com.google.protobuf.ExtensionRegistryLite extensionRegistry)
       throws java.io.IOException {
@@ -307,7 +307,7 @@ private static final long serialVersionUID = 0L;
   public static Builder newBuilder() {
     return DEFAULT_INSTANCE.toBuilder();
   }
-  public static Builder newBuilder(ma.projet.grpc.stubs.SoldeStats prototype) {
+  public static Builder newBuilder(SoldeStats prototype) {
     return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
   }
   @java.lang.Override
@@ -318,7 +318,7 @@ private static final long serialVersionUID = 0L;
 
   @java.lang.Override
   protected Builder newBuilderForType(
-      com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      BuilderParent parent) {
     Builder builder = new Builder(parent);
     return builder;
   }
@@ -332,18 +332,18 @@ private static final long serialVersionUID = 0L;
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
       // @@protoc_insertion_point(builder_implements:com.example.grpcdemo.SoldeStats)
-      ma.projet.grpc.stubs.SoldeStatsOrBuilder {
+      SoldeStatsOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+      return CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
+      return CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              ma.projet.grpc.stubs.SoldeStats.class, ma.projet.grpc.stubs.SoldeStats.Builder.class);
+              SoldeStats.class, Builder.class);
     }
 
     // Construct using ma.projet.grpc.stubs.SoldeStats.newBuilder()
@@ -352,7 +352,7 @@ private static final long serialVersionUID = 0L;
     }
 
     private Builder(
-        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        BuilderParent parent) {
       super(parent);
       maybeForceBuilderInitialization();
     }
@@ -376,17 +376,17 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return ma.projet.grpc.stubs.CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
+      return CompteOuterClass.internal_static_com_example_grpcdemo_SoldeStats_descriptor;
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.SoldeStats getDefaultInstanceForType() {
-      return ma.projet.grpc.stubs.SoldeStats.getDefaultInstance();
+    public SoldeStats getDefaultInstanceForType() {
+      return SoldeStats.getDefaultInstance();
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.SoldeStats build() {
-      ma.projet.grpc.stubs.SoldeStats result = buildPartial();
+    public SoldeStats build() {
+      SoldeStats result = buildPartial();
       if (!result.isInitialized()) {
         throw newUninitializedMessageException(result);
       }
@@ -394,8 +394,8 @@ private static final long serialVersionUID = 0L;
     }
 
     @java.lang.Override
-    public ma.projet.grpc.stubs.SoldeStats buildPartial() {
-      ma.projet.grpc.stubs.SoldeStats result = new ma.projet.grpc.stubs.SoldeStats(this);
+    public SoldeStats buildPartial() {
+      SoldeStats result = new SoldeStats(this);
       result.count_ = count_;
       result.sum_ = sum_;
       result.average_ = average_;
@@ -437,16 +437,16 @@ private static final long serialVersionUID = 0L;
     }
     @java.lang.Override
     public Builder mergeFrom(com.google.protobuf.Message other) {
-      if (other instanceof ma.projet.grpc.stubs.SoldeStats) {
-        return mergeFrom((ma.projet.grpc.stubs.SoldeStats)other);
+      if (other instanceof SoldeStats) {
+        return mergeFrom((SoldeStats)other);
       } else {
         super.mergeFrom(other);
         return this;
       }
     }
 
-    public Builder mergeFrom(ma.projet.grpc.stubs.SoldeStats other) {
-      if (other == ma.projet.grpc.stubs.SoldeStats.getDefaultInstance()) return this;
+    public Builder mergeFrom(SoldeStats other) {
+      if (other == SoldeStats.getDefaultInstance()) return this;
       if (other.getCount() != 0) {
         setCount(other.getCount());
       }
@@ -471,11 +471,11 @@ private static final long serialVersionUID = 0L;
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
-      ma.projet.grpc.stubs.SoldeStats parsedMessage = null;
+      SoldeStats parsedMessage = null;
       try {
         parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
       } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-        parsedMessage = (ma.projet.grpc.stubs.SoldeStats) e.getUnfinishedMessage();
+        parsedMessage = (SoldeStats) e.getUnfinishedMessage();
         throw e.unwrapIOException();
       } finally {
         if (parsedMessage != null) {
@@ -627,12 +627,12 @@ private static final long serialVersionUID = 0L;
   }
 
   // @@protoc_insertion_point(class_scope:com.example.grpcdemo.SoldeStats)
-  private static final ma.projet.grpc.stubs.SoldeStats DEFAULT_INSTANCE;
+  private static final SoldeStats DEFAULT_INSTANCE;
   static {
-    DEFAULT_INSTANCE = new ma.projet.grpc.stubs.SoldeStats();
+    DEFAULT_INSTANCE = new SoldeStats();
   }
 
-  public static ma.projet.grpc.stubs.SoldeStats getDefaultInstance() {
+  public static SoldeStats getDefaultInstance() {
     return DEFAULT_INSTANCE;
   }
 
@@ -657,7 +657,7 @@ private static final long serialVersionUID = 0L;
   }
 
   @java.lang.Override
-  public ma.projet.grpc.stubs.SoldeStats getDefaultInstanceForType() {
+  public SoldeStats getDefaultInstanceForType() {
     return DEFAULT_INSTANCE;
   }
 
